@@ -14,22 +14,22 @@ cask "hexago" do
   on_macos do
     on_intel do
       url "https://github.com/padiazg/hexago/releases/download/v#{version}/hexago_#{version}_darwin_amd64.tar.gz"
-      sha256 "c61499bf520b6ddf5c52eab03f0478671b086034a136b862224c7eb369f722f1"
+      sha256 "1122d09af485fe66f8e7d0dae9b9644f2154d75fe4469df9540df3d69c4c45f5"
     end
     on_arm do
       url "https://github.com/padiazg/hexago/releases/download/v#{version}/hexago_#{version}_darwin_arm64.tar.gz"
-      sha256 "83df0db9c534482100a4dfd4cc4917fb6ad25705e26cba90a4f0bb5977572ede"
+      sha256 "dae84ae85308bb39ffa9dd8b60eccbd717c2279b782ec4585a1b6b97ba6bcde6"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/padiazg/hexago/releases/download/v#{version}/hexago_#{version}_linux_amd64.tar.gz"
-      sha256 "472cfadac74f5c6642bd1c8a5ea5d763576feb66f937c7e3b08fb16692ce8767"
+      sha256 "f9c3252509e61847f6cb5a7c632dac04163d1bee5a60dea13b3da1ef6f7cb2ec"
     end
     on_arm do
       url "https://github.com/padiazg/hexago/releases/download/v#{version}/hexago_#{version}_linux_arm64.tar.gz"
-      sha256 "ddd72387421d365e7c395d1f27c12237c26e40c46edd95a2920366eee791aa5a"
+      sha256 "0ac703b6d4093268c094e0443ea4da925b65358f363708c95c7815130e89772a"
     end
   end
 
