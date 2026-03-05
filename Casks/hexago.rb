@@ -3,7 +3,7 @@ cask "hexago" do
   name "hexago"
   desc "Hexagonal Architecture scaffolding tool for Go"
   homepage "https://github.com/padiazg/hexago"
-  version "0.0.2"
+  version "0.0.3"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "hexago" do
   on_macos do
     on_intel do
       url "https://github.com/padiazg/hexago/releases/download/v#{version}/hexago_#{version}_darwin_amd64.tar.gz"
-      sha256 "4e601bf289a9e24c83a9d5cabd03bfa2088783b5f41cc9e3c9a458b2092508c9"
+      sha256 "525122efde7fab5a6d3c97e80900f64ab0d753493830d0e32d6979e17617fabb"
     end
     on_arm do
       url "https://github.com/padiazg/hexago/releases/download/v#{version}/hexago_#{version}_darwin_arm64.tar.gz"
-      sha256 "833012dcd91f32e378a4065caa4e4dcbad81303bf82da3bdd56be5be106241f2"
+      sha256 "1cbd7272a060996400f0ee4fce0fee2ee38b8b8241568ec824277ae4819ebdf4"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/padiazg/hexago/releases/download/v#{version}/hexago_#{version}_linux_amd64.tar.gz"
-      sha256 "95e852affbe8acd73ff46907518486efa165d41b44aad46659e8a25fa4af6d8b"
+      sha256 "872eed26c9f24a2f843763b56e501830bee5c1a6e91d9ae69a8e12081f020f75"
     end
     on_arm do
       url "https://github.com/padiazg/hexago/releases/download/v#{version}/hexago_#{version}_linux_arm64.tar.gz"
-      sha256 "9c7addc70080d56f941e4fce8c8f409d92f920df6d8c0e274b351f368c606108"
+      sha256 "fe1f22657603c7d6b7571a9f066ea1b6f8865d2f35c26fb7273f8a9a14dfc4af"
     end
   end
 
