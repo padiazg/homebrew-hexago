@@ -5,21 +5,21 @@
 class Hexago < Formula
   desc "Hexagonal Architecture scaffolding tool for Go"
   homepage "https://github.com/padiazg/hexago"
-  version "0.4.0"
+  version "0.4.1"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/padiazg/hexago/releases/download/v0.4.0/hexago_0.4.0_darwin_amd64.tar.gz"
-      sha256 "0489aa1c75e78faf942528989b249aa2f51fff48f370b61394e05af6988b4537"
+      url "https://github.com/padiazg/hexago/releases/download/v0.4.1/hexago_0.4.1_darwin_amd64.tar.gz"
+      sha256 "b671f18ad81050a6944ee3865688ee1a4d4e1889438337e6c2fdff2ee7a3ff58"
 
       define_method(:install) do
         bin.install "hexago"
       end
     end
     if Hardware::CPU.arm?
-      url "https://github.com/padiazg/hexago/releases/download/v0.4.0/hexago_0.4.0_darwin_arm64.tar.gz"
-      sha256 "cff3a72cd392fefca9a97f7470bde554b28018d562b91a596f274c218884f7e8"
+      url "https://github.com/padiazg/hexago/releases/download/v0.4.1/hexago_0.4.1_darwin_arm64.tar.gz"
+      sha256 "9309fc90e125dc6689df6416a363301e92637a5a9435ea5668a718789d47e2bf"
 
       define_method(:install) do
         bin.install "hexago"
@@ -29,15 +29,15 @@ class Hexago < Formula
 
   on_linux do
     if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
-      url "https://github.com/padiazg/hexago/releases/download/v0.4.0/hexago_0.4.0_linux_amd64.tar.gz"
-      sha256 "879edbee2575d53670b6b3339861a27e77182be4c2018401064e6a081d15b86a"
+      url "https://github.com/padiazg/hexago/releases/download/v0.4.1/hexago_0.4.1_linux_amd64.tar.gz"
+      sha256 "b02ba7c3ffff9f375af2843e7ab72a597fe445674186c121fc981517e966e664"
       define_method(:install) do
         bin.install "hexago"
       end
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/padiazg/hexago/releases/download/v0.4.0/hexago_0.4.0_linux_arm64.tar.gz"
-      sha256 "3c998b761517b10e4b60c669353da6a1d7e4a8382abaebb3d6e5da62ff659aa3"
+      url "https://github.com/padiazg/hexago/releases/download/v0.4.1/hexago_0.4.1_linux_arm64.tar.gz"
+      sha256 "7fb185d6c6cce25d0a0625d137ec792d49fd511cc5cb56010b582332de8686e0"
       define_method(:install) do
         bin.install "hexago"
       end
